@@ -1,0 +1,403 @@
+@prefix : <http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16> .
+
+<http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLObjectProperty_53387a9a_6182_4c93_a258_74f04f57f37cdsafasdf
+:OWLObjectProperty_53387a9a_6182_4c93_a258_74f04f57f37cdsafasdf rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf :OWLObjectProperty_d2e974b5_9e9f_450c_8ac4_e928e03e2abedsafasdf ;
+                                                                rdfs:domain :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ;
+                                                                rdfs:range :OWLClass_ac37fcd4_2019_43a1_826e_1ffeb54ec4dbdsafasdf ;
+                                                                rdfs:label "subConseptOf"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLObjectProperty_74699ba5_31e5_4d2b_a8bd_ad595de7a5d4dsafasdf
+:OWLObjectProperty_74699ba5_31e5_4d2b_a8bd_ad595de7a5d4dsafasdf rdf:type owl:ObjectProperty ;
+                                                                owl:inverseOf :OWLObjectProperty_74699ba5_31e5_4d2b_a8bd_ad595de7a5d4dsafasdf ;
+                                                                rdfs:domain :OWLClass_7bcd101c_94f9_4ca0_932b_c0ed338500acdsafasdf ;
+                                                                rdfs:range :OWLClass_5d1f2d03_3be1_4e8c_ac56_7fbb469277d2dsafasdf ;
+                                                                rdfs:label "workIn"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLObjectProperty_8c9ab5bd_5132_4f86_acfa_6da091a7bb6bdsafasdf
+:OWLObjectProperty_8c9ab5bd_5132_4f86_acfa_6da091a7bb6bdsafasdf rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf :OWLObjectProperty_d2e974b5_9e9f_450c_8ac4_e928e03e2abedsafasdf ;
+                                                                rdfs:domain :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ;
+                                                                rdfs:range :OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf ;
+                                                                rdfs:label "supervise"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLObjectProperty_8daa9acf_14b2_42e7_ad2a_6d81d661f376dsafasdf
+:OWLObjectProperty_8daa9acf_14b2_42e7_ad2a_6d81d661f376dsafasdf rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf :OWLObjectProperty_74699ba5_31e5_4d2b_a8bd_ad595de7a5d4dsafasdf ;
+                                                                rdfs:domain :OWLClass_5d1f2d03_3be1_4e8c_ac56_7fbb469277d2dsafasdf ;
+                                                                rdfs:range :OWLClass_7d3910a1_f786_4a75_8eec_03eb824d592bdsafasdf ,
+                                                                           :OWLClass_ac37fcd4_2019_43a1_826e_1ffeb54ec4dbdsafasdf ,
+                                                                           :OWLClass_cd06ef5e_3255_456e_b30f_cf978306f1c4dsafasdf ;
+                                                                rdfs:label "is-a"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLObjectProperty_9369f11c_7a73_46cf_a6ed_20f9157e0d7bdsafasdf
+:OWLObjectProperty_9369f11c_7a73_46cf_a6ed_20f9157e0d7bdsafasdf rdf:type owl:ObjectProperty ;
+                                                                rdfs:domain :OWLClass_7bcd101c_94f9_4ca0_932b_c0ed338500acdsafasdf ;
+                                                                rdfs:range :OWLClass_8f2eaced_805c_4b2e_b1ae_dea1e9203022dsafasdf ;
+                                                                rdfs:label "Has"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLObjectProperty_951cf7ea_27d2_41ba_86db_0b95fa32bc85dsafasdf
+:OWLObjectProperty_951cf7ea_27d2_41ba_86db_0b95fa32bc85dsafasdf rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf :OWLObjectProperty_8c9ab5bd_5132_4f86_acfa_6da091a7bb6bdsafasdf ;
+                                                                rdfs:domain :OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf ;
+                                                                rdfs:range :OWLClass_5f9ec2db_5428_447a_be01_7af7e02256a1dsafasdf ;
+                                                                rdfs:label "memberOf"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLObjectProperty_9d29a878_91ce_40d9_99e3_85fbb65ea54ddsafasdf
+:OWLObjectProperty_9d29a878_91ce_40d9_99e3_85fbb65ea54ddsafasdf rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf :OWLObjectProperty_8c9ab5bd_5132_4f86_acfa_6da091a7bb6bdsafasdf ;
+                                                                rdfs:domain :OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf ;
+                                                                rdfs:range :OWLClass_f1bb5be6_cbcd_4535_acb0_7ce192a4eca4dsafasdf ;
+                                                                rdfs:label "takes"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLObjectProperty_b89c429d_16eb_4c3b_af44_7dbd2e564751dsafasdf
+:OWLObjectProperty_b89c429d_16eb_4c3b_af44_7dbd2e564751dsafasdf rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf :OWLObjectProperty_d2e974b5_9e9f_450c_8ac4_e928e03e2abedsafasdf ;
+                                                                rdfs:domain :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ;
+                                                                rdfs:range :OWLClass_f1bb5be6_cbcd_4535_acb0_7ce192a4eca4dsafasdf ;
+                                                                rdfs:label "teaches"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLObjectProperty_c8783b95_9e48_4e16_9d4f_aebd94ea097cdsafasdf
+:OWLObjectProperty_c8783b95_9e48_4e16_9d4f_aebd94ea097cdsafasdf rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf :OWLObjectProperty_b89c429d_16eb_4c3b_af44_7dbd2e564751dsafasdf ;
+                                                                rdfs:domain :OWLClass_f1bb5be6_cbcd_4535_acb0_7ce192a4eca4dsafasdf ;
+                                                                rdfs:range :OWLClass_5f9ec2db_5428_447a_be01_7af7e02256a1dsafasdf ;
+                                                                rdfs:label "has"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLObjectProperty_d2e974b5_9e9f_450c_8ac4_e928e03e2abedsafasdf
+:OWLObjectProperty_d2e974b5_9e9f_450c_8ac4_e928e03e2abedsafasdf rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf :OWLObjectProperty_fc10b98c_b9c5_4564_82ae_c2745d22a930dsafasdf ;
+                                                                owl:inverseOf :OWLObjectProperty_d2e974b5_9e9f_450c_8ac4_e928e03e2abedsafasdf ;
+                                                                rdfs:domain :OWLClass_664c9a81_6ca7_4dd8_974e_df569cec3127dsafasdf ;
+                                                                rdfs:range :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ;
+                                                                rdfs:label "workIn"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLObjectProperty_fc10b98c_b9c5_4564_82ae_c2745d22a930dsafasdf
+:OWLObjectProperty_fc10b98c_b9c5_4564_82ae_c2745d22a930dsafasdf rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf :OWLObjectProperty_9369f11c_7a73_46cf_a6ed_20f9157e0d7bdsafasdf ;
+                                                                rdfs:domain :OWLClass_8f2eaced_805c_4b2e_b1ae_dea1e9203022dsafasdf ;
+                                                                rdfs:range :OWLClass_664c9a81_6ca7_4dd8_974e_df569cec3127dsafasdf ;
+                                                                rdfs:label "Has"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLDataProperty_08604e28_da5a_41b9_97f6_27e649d02186dsafasdf
+:OWLDataProperty_08604e28_da5a_41b9_97f6_27e649d02186dsafasdf rdf:type owl:DatatypeProperty ;
+                                                              rdfs:subPropertyOf owl:topDataProperty ;
+                                                              rdfs:domain :OWLClass_5f9ec2db_5428_447a_be01_7af7e02256a1dsafasdf ;
+                                                              rdfs:range xsd:long ;
+                                                              rdfs:label "projectCode"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLDataProperty_11c54f26_6937_4b6c_87ef_f7273d0d85fadsafasdf
+:OWLDataProperty_11c54f26_6937_4b6c_87ef_f7273d0d85fadsafasdf rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain :OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf ;
+                                                              rdfs:range xsd:long ;
+                                                              rdfs:label "studentID"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLDataProperty_29ace558_23f1_4110_8a86_c1a965b88896dsafasdf
+:OWLDataProperty_29ace558_23f1_4110_8a86_c1a965b88896dsafasdf rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain :OWLClass_7bcd101c_94f9_4ca0_932b_c0ed338500acdsafasdf ;
+                                                              rdfs:range xsd:Name ;
+                                                              rdfs:label "nameOfUniversity"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLDataProperty_2e09f881_7b5a_49ae_89f6_11321f2a068adsafasdf
+:OWLDataProperty_2e09f881_7b5a_49ae_89f6_11321f2a068adsafasdf rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain :OWLClass_7d3910a1_f786_4a75_8eec_03eb824d592bdsafasdf ,
+                                                                          :OWLClass_ac37fcd4_2019_43a1_826e_1ffeb54ec4dbdsafasdf ,
+                                                                          :OWLClass_cd06ef5e_3255_456e_b30f_cf978306f1c4dsafasdf ,
+                                                                          :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ;
+                                                              rdfs:range xsd:integer ;
+                                                              rdfs:label "experience"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLDataProperty_2f350a42_b512_4d9f_ba4c_63853ad17b04dsafasdf
+:OWLDataProperty_2f350a42_b512_4d9f_ba4c_63853ad17b04dsafasdf rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain :OWLClass_7d3910a1_f786_4a75_8eec_03eb824d592bdsafasdf ,
+                                                                          :OWLClass_ac37fcd4_2019_43a1_826e_1ffeb54ec4dbdsafasdf ,
+                                                                          :OWLClass_cd06ef5e_3255_456e_b30f_cf978306f1c4dsafasdf ,
+                                                                          :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ,
+                                                                          :OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf ;
+                                                              rdfs:range xsd:dateTime ;
+                                                              rdfs:label "yearOfJoin"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLDataProperty_3884d5ad_a12f_475a_a7c5_fff8bcebd59adsafasdf
+:OWLDataProperty_3884d5ad_a12f_475a_a7c5_fff8bcebd59adsafasdf rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain :OWLClass_f1bb5be6_cbcd_4535_acb0_7ce192a4eca4dsafasdf ;
+                                                              rdfs:range xsd:long ;
+                                                              rdfs:label "lectureCode"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLDataProperty_57eb3474_d485_4f92_a94d_ca11c4f822e8dsafasdf
+:OWLDataProperty_57eb3474_d485_4f92_a94d_ca11c4f822e8dsafasdf rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ;
+                                                              rdfs:range xsd:long ;
+                                                              rdfs:label "professorID"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLDataProperty_7e8ec649_6956_4799_aafb_c3700c4ab25cdsafasdf
+:OWLDataProperty_7e8ec649_6956_4799_aafb_c3700c4ab25cdsafasdf rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain :OWLClass_7d3910a1_f786_4a75_8eec_03eb824d592bdsafasdf ,
+                                                                          :OWLClass_ac37fcd4_2019_43a1_826e_1ffeb54ec4dbdsafasdf ,
+                                                                          :OWLClass_cd06ef5e_3255_456e_b30f_cf978306f1c4dsafasdf ,
+                                                                          :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ,
+                                                                          :OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf ;
+                                                              rdfs:range xsd:integer ;
+                                                              rdfs:label "age"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLDataProperty_981427f6_6ae4_4139_96e0_410478e814d5dsafasdf
+:OWLDataProperty_981427f6_6ae4_4139_96e0_410478e814d5dsafasdf rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain :OWLClass_8f2eaced_805c_4b2e_b1ae_dea1e9203022dsafasdf ;
+                                                              rdfs:range xsd:Name ;
+                                                              rdfs:label "facultyName"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLDataProperty_b15d3cdc_b1a5_4366_b1f5_7c621e91a7bbdsafasdf
+:OWLDataProperty_b15d3cdc_b1a5_4366_b1f5_7c621e91a7bbdsafasdf rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain :OWLClass_664c9a81_6ca7_4dd8_974e_df569cec3127dsafasdf ;
+                                                              rdfs:range xsd:Name ;
+                                                              rdfs:label "departmentName"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLDataProperty_bad98bb7_c6cd_4667_92e6_3d4bfa2007a9dsafasdf
+:OWLDataProperty_bad98bb7_c6cd_4667_92e6_3d4bfa2007a9dsafasdf rdf:type owl:DatatypeProperty ;
+                                                              rdfs:subPropertyOf owl:topDataProperty ;
+                                                              rdfs:domain :OWLClass_7d3910a1_f786_4a75_8eec_03eb824d592bdsafasdf ,
+                                                                          :OWLClass_ac37fcd4_2019_43a1_826e_1ffeb54ec4dbdsafasdf ,
+                                                                          :OWLClass_cd06ef5e_3255_456e_b30f_cf978306f1c4dsafasdf ,
+                                                                          :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ,
+                                                                          :OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf ;
+                                                              rdfs:range xsd:string ;
+                                                              rdfs:label "adress"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLDataProperty_d9f283d3_4a63_4607_a18c_1869db352affdsafasdf
+:OWLDataProperty_d9f283d3_4a63_4607_a18c_1869db352affdsafasdf rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain :OWLClass_7d3910a1_f786_4a75_8eec_03eb824d592bdsafasdf ,
+                                                                          :OWLClass_ac37fcd4_2019_43a1_826e_1ffeb54ec4dbdsafasdf ,
+                                                                          :OWLClass_cd06ef5e_3255_456e_b30f_cf978306f1c4dsafasdf ,
+                                                                          :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ,
+                                                                          :OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf ;
+                                                              rdfs:range xsd:long ;
+                                                              rdfs:label "phoneNumber"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLClass_5d1f2d03_3be1_4e8c_ac56_7fbb469277d2dsafasdf
+:OWLClass_5d1f2d03_3be1_4e8c_ac56_7fbb469277d2dsafasdf rdf:type owl:Class ;
+                                                       rdfs:subClassOf :OWLClass_7bcd101c_94f9_4ca0_932b_c0ed338500acdsafasdf ;
+                                                       rdfs:label "Employee"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLClass_5f9ec2db_5428_447a_be01_7af7e02256a1dsafasdf
+:OWLClass_5f9ec2db_5428_447a_be01_7af7e02256a1dsafasdf rdf:type owl:Class ;
+                                                       rdfs:subClassOf :OWLClass_f1bb5be6_cbcd_4535_acb0_7ce192a4eca4dsafasdf ;
+                                                       rdfs:label "Project"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLClass_664c9a81_6ca7_4dd8_974e_df569cec3127dsafasdf
+:OWLClass_664c9a81_6ca7_4dd8_974e_df569cec3127dsafasdf rdf:type owl:Class ;
+                                                       rdfs:subClassOf :OWLClass_8f2eaced_805c_4b2e_b1ae_dea1e9203022dsafasdf ;
+                                                       rdfs:label "Department"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLClass_7bcd101c_94f9_4ca0_932b_c0ed338500acdsafasdf
+:OWLClass_7bcd101c_94f9_4ca0_932b_c0ed338500acdsafasdf rdf:type owl:Class ;
+                                                       rdfs:label "University"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLClass_7d3910a1_f786_4a75_8eec_03eb824d592bdsafasdf
+:OWLClass_7d3910a1_f786_4a75_8eec_03eb824d592bdsafasdf rdf:type owl:Class ;
+                                                       rdfs:subClassOf :OWLClass_5d1f2d03_3be1_4e8c_ac56_7fbb469277d2dsafasdf ;
+                                                       rdfs:label "Servant"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLClass_8f2eaced_805c_4b2e_b1ae_dea1e9203022dsafasdf
+:OWLClass_8f2eaced_805c_4b2e_b1ae_dea1e9203022dsafasdf rdf:type owl:Class ;
+                                                       rdfs:subClassOf :OWLClass_7bcd101c_94f9_4ca0_932b_c0ed338500acdsafasdf ;
+                                                       rdfs:label "Faculty"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLClass_ac37fcd4_2019_43a1_826e_1ffeb54ec4dbdsafasdf
+:OWLClass_ac37fcd4_2019_43a1_826e_1ffeb54ec4dbdsafasdf rdf:type owl:Class ;
+                                                       rdfs:subClassOf :OWLClass_5d1f2d03_3be1_4e8c_ac56_7fbb469277d2dsafasdf ;
+                                                       rdfs:label "Academic Staff"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLClass_cd06ef5e_3255_456e_b30f_cf978306f1c4dsafasdf
+:OWLClass_cd06ef5e_3255_456e_b30f_cf978306f1c4dsafasdf rdf:type owl:Class ;
+                                                       rdfs:subClassOf :OWLClass_5d1f2d03_3be1_4e8c_ac56_7fbb469277d2dsafasdf ;
+                                                       rdfs:label "Officer"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf
+:OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf rdf:type owl:Class ;
+                                                       rdfs:subClassOf :OWLClass_664c9a81_6ca7_4dd8_974e_df569cec3127dsafasdf ;
+                                                       rdfs:label "Professor"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLClass_f1bb5be6_cbcd_4535_acb0_7ce192a4eca4dsafasdf
+:OWLClass_f1bb5be6_cbcd_4535_acb0_7ce192a4eca4dsafasdf rdf:type owl:Class ;
+                                                       rdfs:subClassOf :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ;
+                                                       rdfs:label "Lecture"@en .
+
+
+###  http://www.semanticweb.org/abc/ontologies/2020/11/untitled-ontology-16#OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf
+:OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf rdf:type owl:Class ;
+                                                       rdfs:subClassOf :OWLClass_664c9a81_6ca7_4dd8_974e_df569cec3127dsafasdf ;
+                                                       rdfs:label "Student"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://webprotege.stanford.edu/R73TlDBZ6HEZZ0hBUZaAWqd
+<http://webprotege.stanford.edu/R73TlDBZ6HEZZ0hBUZaAWqd> rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_f1bb5be6_cbcd_4535_acb0_7ce192a4eca4dsafasdf ;
+                                                         :OWLDataProperty_3884d5ad_a12f_475a_a7c5_fff8bcebd59adsafasdf "CSE101"^^xsd:string ;
+                                                         rdfs:label "lecture001"@en .
+
+
+###  http://webprotege.stanford.edu/R7ZoZHh2pYF6e1zdsWZArcJ
+<http://webprotege.stanford.edu/R7ZoZHh2pYF6e1zdsWZArcJ> rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ;
+                                                         :OWLObjectProperty_8c9ab5bd_5132_4f86_acfa_6da091a7bb6bdsafasdf <http://webprotege.stanford.edu/RBFtiq6EDSGkEVsv8mpvcnF> ,
+                                                                                                                         <http://webprotege.stanford.edu/RCWMk6DPYWOH5KoCVArFUlg> ;
+                                                         :OWLObjectProperty_b89c429d_16eb_4c3b_af44_7dbd2e564751dsafasdf <http://webprotege.stanford.edu/R73TlDBZ6HEZZ0hBUZaAWqd> ;
+                                                         :OWLDataProperty_2e09f881_7b5a_49ae_89f6_11321f2a068adsafasdf "15 years"^^xsd:string ;
+                                                         :OWLDataProperty_57eb3474_d485_4f92_a94d_ca11c4f822e8dsafasdf "1"@en ;
+                                                         :OWLDataProperty_7e8ec649_6956_4799_aafb_c3700c4ab25cdsafasdf "45"@en ;
+                                                         :OWLDataProperty_981427f6_6ae4_4139_96e0_410478e814d5dsafasdf "engineering faculty"^^xsd:string ;
+                                                         :OWLDataProperty_b15d3cdc_b1a5_4366_b1f5_7c621e91a7bbdsafasdf "computer engineering"^^xsd:string ;
+                                                         :OWLDataProperty_bad98bb7_c6cd_4667_92e6_3d4bfa2007a9dsafasdf "yedieylul mahallesi"^^xsd:string ;
+                                                         :OWLDataProperty_d9f283d3_4a63_4607_a18c_1869db352affdsafasdf "05528479685"@en ;
+                                                         rdfs:label "professor001"@en .
+
+
+###  http://webprotege.stanford.edu/R8nTy5lXxRFCHAWCpQ9r3sD
+<http://webprotege.stanford.edu/R8nTy5lXxRFCHAWCpQ9r3sD> rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_5f9ec2db_5428_447a_be01_7af7e02256a1dsafasdf ;
+                                                         :OWLDataProperty_08604e28_da5a_41b9_97f6_27e649d02186dsafasdf "101"@en ;
+                                                         rdfs:label "project001"@en .
+
+
+###  http://webprotege.stanford.edu/RBFtiq6EDSGkEVsv8mpvcnF
+<http://webprotege.stanford.edu/RBFtiq6EDSGkEVsv8mpvcnF> rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf ;
+                                                         :OWLObjectProperty_951cf7ea_27d2_41ba_86db_0b95fa32bc85dsafasdf <http://webprotege.stanford.edu/R8nTy5lXxRFCHAWCpQ9r3sD> ;
+                                                         :OWLObjectProperty_9d29a878_91ce_40d9_99e3_85fbb65ea54ddsafasdf <http://webprotege.stanford.edu/R73TlDBZ6HEZZ0hBUZaAWqd> ;
+                                                         :OWLDataProperty_11c54f26_6937_4b6c_87ef_f7273d0d85fadsafasdf "16180501"@en ;
+                                                         :OWLDataProperty_7e8ec649_6956_4799_aafb_c3700c4ab25cdsafasdf "22"@en ;
+                                                         :OWLDataProperty_981427f6_6ae4_4139_96e0_410478e814d5dsafasdf "engineering faculty"^^xsd:string ;
+                                                         :OWLDataProperty_b15d3cdc_b1a5_4366_b1f5_7c621e91a7bbdsafasdf "computer engineering"^^xsd:string ;
+                                                         :OWLDataProperty_bad98bb7_c6cd_4667_92e6_3d4bfa2007a9dsafasdf "zafer mahallesi"^^xsd:string ;
+                                                         :OWLDataProperty_d9f283d3_4a63_4607_a18c_1869db352affdsafasdf "05524897858"@en ;
+                                                         rdfs:label "student001"@en .
+
+
+###  http://webprotege.stanford.edu/RCWMk6DPYWOH5KoCVArFUlg
+<http://webprotege.stanford.edu/RCWMk6DPYWOH5KoCVArFUlg> rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf ;
+                                                         :OWLObjectProperty_951cf7ea_27d2_41ba_86db_0b95fa32bc85dsafasdf <http://webprotege.stanford.edu/R8nTy5lXxRFCHAWCpQ9r3sD> ;
+                                                         :OWLObjectProperty_9d29a878_91ce_40d9_99e3_85fbb65ea54ddsafasdf <http://webprotege.stanford.edu/R73TlDBZ6HEZZ0hBUZaAWqd> ;
+                                                         :OWLDataProperty_11c54f26_6937_4b6c_87ef_f7273d0d85fadsafasdf "16180503"@en ;
+                                                         :OWLDataProperty_7e8ec649_6956_4799_aafb_c3700c4ab25cdsafasdf "22"@en ;
+                                                         :OWLDataProperty_981427f6_6ae4_4139_96e0_410478e814d5dsafasdf "engineering faculty"^^xsd:string ;
+                                                         :OWLDataProperty_b15d3cdc_b1a5_4366_b1f5_7c621e91a7bbdsafasdf "computer engineering"^^xsd:string ;
+                                                         :OWLDataProperty_bad98bb7_c6cd_4667_92e6_3d4bfa2007a9dsafasdf "zafer mahallesi"^^xsd:string ;
+                                                         :OWLDataProperty_d9f283d3_4a63_4607_a18c_1869db352affdsafasdf "05529865478"@en ;
+                                                         rdfs:label "student003"@en .
+
+
+###  http://webprotege.stanford.edu/RCyccBzqnSygpFFwwmfXk2x
+<http://webprotege.stanford.edu/RCyccBzqnSygpFFwwmfXk2x> rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf ;
+                                                         :OWLObjectProperty_951cf7ea_27d2_41ba_86db_0b95fa32bc85dsafasdf <http://webprotege.stanford.edu/RDPV6K6yj7JxUqZBDkxycw7> ;
+                                                         :OWLObjectProperty_9d29a878_91ce_40d9_99e3_85fbb65ea54ddsafasdf <http://webprotege.stanford.edu/RTAILy1d6UUbQeeW8GBv7o> ;
+                                                         :OWLDataProperty_11c54f26_6937_4b6c_87ef_f7273d0d85fadsafasdf "16180502"@en ;
+                                                         :OWLDataProperty_7e8ec649_6956_4799_aafb_c3700c4ab25cdsafasdf "23"@en ;
+                                                         :OWLDataProperty_981427f6_6ae4_4139_96e0_410478e814d5dsafasdf "engineering faculty"^^xsd:string ;
+                                                         :OWLDataProperty_b15d3cdc_b1a5_4366_b1f5_7c621e91a7bbdsafasdf "computer engineering"^^xsd:string ;
+                                                         :OWLDataProperty_bad98bb7_c6cd_4667_92e6_3d4bfa2007a9dsafasdf "isikli mahallesi"^^xsd:string ;
+                                                         :OWLDataProperty_d9f283d3_4a63_4607_a18c_1869db352affdsafasdf 05396587478 ;
+                                                         rdfs:label "student002"@en .
+
+
+###  http://webprotege.stanford.edu/RDDByxp0QdPZUNHgBPzN64w
+<http://webprotege.stanford.edu/RDDByxp0QdPZUNHgBPzN64w> rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_ea8bd2ec_7bbd_4764_9199_3d7fdf660c6edsafasdf ;
+                                                         :OWLObjectProperty_8c9ab5bd_5132_4f86_acfa_6da091a7bb6bdsafasdf <http://webprotege.stanford.edu/RCyccBzqnSygpFFwwmfXk2x> ,
+                                                                                                                         <http://webprotege.stanford.edu/Rh8AeHx0HHEJJhBORVHNve> ;
+                                                         :OWLObjectProperty_b89c429d_16eb_4c3b_af44_7dbd2e564751dsafasdf <http://webprotege.stanford.edu/RTAILy1d6UUbQeeW8GBv7o> ;
+                                                         :OWLDataProperty_2e09f881_7b5a_49ae_89f6_11321f2a068adsafasdf "20 years"^^xsd:string ;
+                                                         :OWLDataProperty_57eb3474_d485_4f92_a94d_ca11c4f822e8dsafasdf "2"@en ;
+                                                         :OWLDataProperty_7e8ec649_6956_4799_aafb_c3700c4ab25cdsafasdf "55"@en ;
+                                                         :OWLDataProperty_981427f6_6ae4_4139_96e0_410478e814d5dsafasdf "engineering faculty"^^xsd:string ;
+                                                         :OWLDataProperty_b15d3cdc_b1a5_4366_b1f5_7c621e91a7bbdsafasdf "computer engineering"^^xsd:string ;
+                                                         :OWLDataProperty_bad98bb7_c6cd_4667_92e6_3d4bfa2007a9dsafasdf "mimar sinan mahallesi"^^xsd:string ;
+                                                         :OWLDataProperty_d9f283d3_4a63_4607_a18c_1869db352affdsafasdf "05452589636"@en ;
+                                                         rdfs:label "professor002"@en .
+
+
+###  http://webprotege.stanford.edu/RDPV6K6yj7JxUqZBDkxycw7
+<http://webprotege.stanford.edu/RDPV6K6yj7JxUqZBDkxycw7> rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_5f9ec2db_5428_447a_be01_7af7e02256a1dsafasdf ;
+                                                         :OWLDataProperty_08604e28_da5a_41b9_97f6_27e649d02186dsafasdf "201"@en ;
+                                                         rdfs:label "project002"@en .
+
+
+###  http://webprotege.stanford.edu/RTAILy1d6UUbQeeW8GBv7o
+<http://webprotege.stanford.edu/RTAILy1d6UUbQeeW8GBv7o> rdf:type owl:NamedIndividual ,
+                                                                 :OWLClass_f1bb5be6_cbcd_4535_acb0_7ce192a4eca4dsafasdf ;
+                                                        :OWLDataProperty_3884d5ad_a12f_475a_a7c5_fff8bcebd59adsafasdf "CSE201"^^xsd:string ;
+                                                        rdfs:label "lecture002"@en .
+
+
+###  http://webprotege.stanford.edu/Rh8AeHx0HHEJJhBORVHNve
+<http://webprotege.stanford.edu/Rh8AeHx0HHEJJhBORVHNve> rdf:type owl:NamedIndividual ,
+                                                                 :OWLClass_fd2999a3_c1b6_4aa8_b477_16c7587048e2dsafasdf ;
+                                                        :OWLObjectProperty_951cf7ea_27d2_41ba_86db_0b95fa32bc85dsafasdf <http://webprotege.stanford.edu/RDPV6K6yj7JxUqZBDkxycw7> ;
+                                                        :OWLObjectProperty_9d29a878_91ce_40d9_99e3_85fbb65ea54ddsafasdf <http://webprotege.stanford.edu/RTAILy1d6UUbQeeW8GBv7o> ;
+                                                        :OWLDataProperty_11c54f26_6937_4b6c_87ef_f7273d0d85fadsafasdf "16180504"@en ;
+                                                        :OWLDataProperty_7e8ec649_6956_4799_aafb_c3700c4ab25cdsafasdf "24"@en ;
+                                                        :OWLDataProperty_981427f6_6ae4_4139_96e0_410478e814d5dsafasdf "engineering faculty"^^xsd:string ;
+                                                        :OWLDataProperty_b15d3cdc_b1a5_4366_b1f5_7c621e91a7bbdsafasdf "computer engineering"^^xsd:string ;
+                                                        :OWLDataProperty_bad98bb7_c6cd_4667_92e6_3d4bfa2007a9dsafasdf "cumhuriyet mahallesi"^^xsd:string ;
+                                                        :OWLDataProperty_d9f283d3_4a63_4607_a18c_1869db352affdsafasdf "05429855678"@en ;
+                                                        rdfs:label "student004"@en .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
